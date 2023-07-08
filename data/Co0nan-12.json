@@ -1,0 +1,8 @@
+{
+  "contest": 258,
+  "handle": "Co0nan",
+  "risk": "2",
+  "title": "liquidate function will revert if the _yieldFeePercentage set to 1e9 due to division be Zero.",
+  "issueId": 12,
+  "issueUrl": "https://github.com/code-423n4/2023-07-pooltogether-findings/issues/12"
+}
