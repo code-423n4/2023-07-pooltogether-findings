@@ -1,0 +1,8 @@
+{
+  "contest": 258,
+  "handle": "Co0nan",
+  "risk": "3",
+  "title": "Attacker can steals other users assets with front-running due to 2 step deposit flow.",
+  "issueId": 15,
+  "issueUrl": "https://github.com/code-423n4/2023-07-pooltogether-findings/issues/15"
+}
