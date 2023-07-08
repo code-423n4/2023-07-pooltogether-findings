@@ -1,0 +1,8 @@
+{
+  "contest": 258,
+  "handle": "casinad",
+  "risk": "3",
+  "title": "Lack of Access Control: The contract does not implement any access control mechanisms at claimPrizes function",
+  "issueId": 10,
+  "issueUrl": "https://github.com/code-423n4/2023-07-pooltogether-findings/issues/10"
+}
