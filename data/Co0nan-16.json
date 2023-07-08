@@ -1,0 +1,8 @@
+{
+  "contest": 258,
+  "handle": "Co0nan",
+  "risk": "2",
+  "title": "It's not possible to create Vault with assets that require approving to Zero first.",
+  "issueId": 16,
+  "issueUrl": "https://github.com/code-423n4/2023-07-pooltogether-findings/issues/16"
+}
