@@ -1,0 +1,8 @@
+{
+  "contest": 258,
+  "handle": "Co0nan",
+  "risk": "2",
+  "title": "Attacker can delegate any user to the sponsorship address.",
+  "issueId": 13,
+  "issueUrl": "https://github.com/code-423n4/2023-07-pooltogether-findings/issues/13"
+}
