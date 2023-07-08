@@ -1,0 +1,8 @@
+{
+  "contest": 258,
+  "handle": "Darshan",
+  "risk": "2",
+  "title": "subscription can underflow or revert",
+  "issueId": 3,
+  "issueUrl": "https://github.com/code-423n4/2023-07-pooltogether-findings/issues/3"
+}
