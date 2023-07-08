@@ -43,3 +43,18 @@ if (_tier == 0) return TIER_ODDS_0;
 ...
 
 ```
+
+
+[QA-2] this line in Vault can be re-written for better clarity
+```solidity
+if (_withdrawableAssets > _totalSupplyToAssets) {
+      _withdrawableAssets = _withdrawableAssets - (_withdrawableAssets - _totalSupplyToAssets);
+    }
+```
+
+is no different from making `_withdrawableAssets` as `_totalSupplyToAssets`
+```solidity
+if (_withdrawableAssets > _totalSupplyToAssets) {
+      _withdrawableAssets = _totalSupplyToAssets;
+    }
+````
