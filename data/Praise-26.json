@@ -1,0 +1,8 @@
+{
+  "contest": 258,
+  "handle": "Praise",
+  "risk": "2",
+  "title": "Claimer._computeFeePerClaim() may round down to zero when computing fee per claim",
+  "issueId": 26,
+  "issueUrl": "https://github.com/code-423n4/2023-07-pooltogether-findings/issues/26"
+}
