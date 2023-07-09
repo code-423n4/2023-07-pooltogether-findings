@@ -2,4 +2,4 @@ a) _claimer for a vault is set explicitly by calling setClaimer() function. Unti
 
 It is best to initiaize this _claimer during the construction process as that vault and claimer contracts are enforcing valid state when claimPrizes is called.
 
-b) feeRecipient of ClaimPrizes is passed by the claimer. there is a need to validate feeRecipient to be non zero address.
+b) feeRecipient of ClaimPrizes function in claimer contract is passed by the caller. there is a need to validate feeRecipient to be non zero address.
