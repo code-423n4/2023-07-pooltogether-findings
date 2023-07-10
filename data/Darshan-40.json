@@ -1,0 +1,8 @@
+{
+  "contest": 258,
+  "handle": "Darshan",
+  "risk": "2",
+  "title": "call() should be used instead of transfer() on an address payable",
+  "issueId": 40,
+  "issueUrl": "https://github.com/code-423n4/2023-07-pooltogether-findings/issues/40"
+}
