@@ -1,0 +1,8 @@
+{
+  "contest": 258,
+  "handle": "ABAIKUNANBAEV",
+  "risk": "3",
+  "title": "maxWithdraw check will fail as it's not taken from _yieldVault when withdrawing assets in Vault.sol",
+  "issueId": 31,
+  "issueUrl": "https://github.com/code-423n4/2023-07-pooltogether-findings/issues/31"
+}
