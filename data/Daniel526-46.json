@@ -1,0 +1,8 @@
+{
+  "contest": 258,
+  "handle": "Daniel526",
+  "risk": "3",
+  "title": "Permanent loss of tokens due to the absence of address validation, rendering assets irretrievable.",
+  "issueId": 46,
+  "issueUrl": "https://github.com/code-423n4/2023-07-pooltogether-findings/issues/46"
+}
