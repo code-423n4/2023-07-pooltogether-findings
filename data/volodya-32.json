@@ -1,0 +1,8 @@
+{
+  "contest": 258,
+  "handle": "volodya",
+  "risk": "3",
+  "title": "draw is not being used to generate a random number for a winner",
+  "issueId": 32,
+  "issueUrl": "https://github.com/code-423n4/2023-07-pooltogether-findings/issues/32"
+}
