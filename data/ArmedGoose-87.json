@@ -1,0 +1,8 @@
+{
+  "contest": 258,
+  "handle": "ArmedGoose",
+  "risk": "3",
+  "title": "Prize tokens can be hijacked and accounted by malicious vault owners due to frontrunning issue in contributePrizeTokens",
+  "issueId": 87,
+  "issueUrl": "https://github.com/code-423n4/2023-07-pooltogether-findings/issues/87"
+}
