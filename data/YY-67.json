@@ -1,0 +1,8 @@
+{
+  "contest": 258,
+  "handle": "YY",
+  "risk": "3",
+  "title": "Unrestricted Function Call Vulnerability in sponsor() Function",
+  "issueId": 67,
+  "issueUrl": "https://github.com/code-423n4/2023-07-pooltogether-findings/issues/67"
+}
