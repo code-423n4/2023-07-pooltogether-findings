@@ -1,0 +1,8 @@
+{
+  "contest": 258,
+  "handle": "fatherOfBlocks",
+  "risk": "2",
+  "title": "lack of validation in associated inputs, which could generate DoS",
+  "issueId": 97,
+  "issueUrl": "https://github.com/code-423n4/2023-07-pooltogether-findings/issues/97"
+}
