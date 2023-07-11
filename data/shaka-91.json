@@ -1,0 +1,8 @@
+{
+  "contest": 258,
+  "handle": "shaka",
+  "risk": "2",
+  "title": "Transfer of Vault tokens can cause accounting errors in other contracts",
+  "issueId": 91,
+  "issueUrl": "https://github.com/code-423n4/2023-07-pooltogether-findings/issues/91"
+}
