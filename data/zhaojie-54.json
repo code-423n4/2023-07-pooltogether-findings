@@ -1,0 +1,8 @@
+{
+  "contest": 258,
+  "handle": "zhaojie",
+  "risk": "3",
+  "title": "DoS for `Claimer.claimPrizes`",
+  "issueId": 54,
+  "issueUrl": "https://github.com/code-423n4/2023-07-pooltogether-findings/issues/54"
+}
