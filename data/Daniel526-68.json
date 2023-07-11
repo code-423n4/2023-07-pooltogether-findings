@@ -1,0 +1,8 @@
+{
+  "contest": 258,
+  "handle": "Daniel526",
+  "risk": "2",
+  "title": "Incorrect Balance Adjustment in `_transferBalance` Function",
+  "issueId": 68,
+  "issueUrl": "https://github.com/code-423n4/2023-07-pooltogether-findings/issues/68"
+}
