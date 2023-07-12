@@ -1,0 +1,8 @@
+{
+  "contest": 258,
+  "handle": "rvierdiiev",
+  "risk": "2",
+  "title": "Delegating to address 0 is permanent action, user will not be able to undo it and will not be able to withdraw anymore",
+  "issueId": 141,
+  "issueUrl": "https://github.com/code-423n4/2023-07-pooltogether-findings/issues/141"
+}
