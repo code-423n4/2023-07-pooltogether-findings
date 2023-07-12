@@ -1,0 +1,8 @@
+{
+  "contest": 258,
+  "handle": "0xmuxyz",
+  "risk": "2",
+  "title": "Due to no limitation how many prize indices of each winner stored in the `_prizeIndices` storage can be claimed in a single transaction, the transaction will be reverted due to reaching the gas limit in the for-loop in the Vault#`claimPrizes()`",
+  "issueId": 131,
+  "issueUrl": "https://github.com/code-423n4/2023-07-pooltogether-findings/issues/131"
+}
