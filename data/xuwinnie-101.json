@@ -1,0 +1,8 @@
+{
+  "contest": 258,
+  "handle": "xuwinnie",
+  "risk": "3",
+  "title": "Lack of access control for function `setDrawManager`",
+  "issueId": 101,
+  "issueUrl": "https://github.com/code-423n4/2023-07-pooltogether-findings/issues/101"
+}
