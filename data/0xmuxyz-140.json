@@ -1,0 +1,8 @@
+{
+  "contest": 258,
+  "handle": "0xmuxyz",
+  "risk": "2",
+  "title": "The transaction of the Vault#`withdraw()` will be reverted if a user assign `0` into the `_assets` parameter and the yield source of the yieldVault would be the Aave V3",
+  "issueId": 140,
+  "issueUrl": "https://github.com/code-423n4/2023-07-pooltogether-findings/issues/140"
+}
