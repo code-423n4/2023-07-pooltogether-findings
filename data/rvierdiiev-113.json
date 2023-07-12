@@ -1,0 +1,8 @@
+{
+  "contest": 258,
+  "handle": "rvierdiiev",
+  "risk": "2",
+  "title": "depositWithPermit and mintWithPermit are allowed to be called by permit creator only",
+  "issueId": 113,
+  "issueUrl": "https://github.com/code-423n4/2023-07-pooltogether-findings/issues/113"
+}
