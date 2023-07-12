@@ -1,0 +1,8 @@
+{
+  "contest": 258,
+  "handle": "0xbepresent",
+  "risk": "3",
+  "title": "Malicious liquidationPair can extract the liquidable balance via `Vault.liquidate()` without deposit any prize token to the prize pool",
+  "issueId": 151,
+  "issueUrl": "https://github.com/code-423n4/2023-07-pooltogether-findings/issues/151"
+}
