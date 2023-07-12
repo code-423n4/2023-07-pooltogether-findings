@@ -1,0 +1,8 @@
+{
+  "contest": 258,
+  "handle": "dirk_y",
+  "risk": "2",
+  "title": "Vault mintWithPermit will always fail",
+  "issueId": 153,
+  "issueUrl": "https://github.com/code-423n4/2023-07-pooltogether-findings/issues/153"
+}
