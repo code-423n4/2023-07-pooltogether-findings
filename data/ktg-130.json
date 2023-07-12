@@ -1,0 +1,8 @@
+{
+  "contest": 258,
+  "handle": "ktg",
+  "risk": "2",
+  "title": "Yield fee is neither deducted from user's received shares or transferred to _yieldFeeRecipient",
+  "issueId": 130,
+  "issueUrl": "https://github.com/code-423n4/2023-07-pooltogether-findings/issues/130"
+}
