@@ -1,0 +1,8 @@
+{
+  "contest": 258,
+  "handle": "0xWaitress",
+  "risk": "3",
+  "title": "withdraw in Vault  does not allow expression of minimum acceptable output for user leading to potential principle loss from user due to MEV",
+  "issueId": 132,
+  "issueUrl": "https://github.com/code-423n4/2023-07-pooltogether-findings/issues/132"
+}
