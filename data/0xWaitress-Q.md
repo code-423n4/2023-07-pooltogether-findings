@@ -25,9 +25,26 @@ _getVaultUserBalanceAndTotalSupplyTwab
 
 Since the maximum value of _drawDuration is only 366 so the severity is low.
 
-## Recommendation
+Recommendation
 Please align data type for consistency.
 
+
+[L-2] estimatePrizeFrequencyInDraws returns uin256 but casted to uint16 at getTierAccrualDurationInDraws.
+
+```solidity
+  function getTierAccrualDurationInDraws(uint8 _tier) external view returns (uint16) {
+    return
+      uint16(TierCalculationLib.estimatePrizeFrequencyInDraws(_tierOdds(_tier, numberOfTiers)));
+  }
+```
+https://github.com/GenerationSoftware/pt-v5-prize-pool/blob/4bc8a12b857856828c018510b5500d722b79ca3a/src/PrizePool.sol#L551-L554
+
+```solidity
+  function estimatePrizeFrequencyInDraws(SD59x18 _tierOdds) internal pure returns (uint256) {
+    return uint256(fromSD59x18(sd(1e18).div(_tierOdds).ceil()));
+  }
+```
+https://github.com/GenerationSoftware/pt-v5-prize-pool/blob/4bc8a12b857856828c018510b5500d722b79ca3a/src/libraries/TierCalculationLib.sol#L32-L34
 
 [QA-1] _tierOdds of tier 0 at every tier_num is the same, thus can be reduced to 1 variable
 
