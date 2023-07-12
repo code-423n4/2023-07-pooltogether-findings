@@ -1,0 +1,8 @@
+{
+  "contest": 258,
+  "handle": "0xStalin",
+  "risk": "3",
+  "title": "Users are capable to make the Vault contract to execute External calls to Arbtirary Addresses by enabling hooks",
+  "issueId": 99,
+  "issueUrl": "https://github.com/code-423n4/2023-07-pooltogether-findings/issues/99"
+}
