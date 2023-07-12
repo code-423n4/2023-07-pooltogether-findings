@@ -1,0 +1,8 @@
+{
+  "contest": 258,
+  "handle": "ktg",
+  "risk": "2",
+  "title": "The protocol takes more yield fee than _yieldFeePercentage",
+  "issueId": 124,
+  "issueUrl": "https://github.com/code-423n4/2023-07-pooltogether-findings/issues/124"
+}
