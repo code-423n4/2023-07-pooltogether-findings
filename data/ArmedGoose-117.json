@@ -1,0 +1,8 @@
+{
+  "contest": 258,
+  "handle": "ArmedGoose",
+  "risk": "3",
+  "title": "Batch rewards claiming may be DoSed if some users claim the reward by themselves",
+  "issueId": 117,
+  "issueUrl": "https://github.com/code-423n4/2023-07-pooltogether-findings/issues/117"
+}
