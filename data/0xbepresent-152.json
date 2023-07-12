@@ -1,0 +1,8 @@
+{
+  "contest": 258,
+  "handle": "0xbepresent",
+  "risk": "2",
+  "title": "User funds may be trapped in the `Vault` contract if he delegates to zero address",
+  "issueId": 152,
+  "issueUrl": "https://github.com/code-423n4/2023-07-pooltogether-findings/issues/152"
+}
