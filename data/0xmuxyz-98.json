@@ -1,0 +1,8 @@
+{
+  "contest": 258,
+  "handle": "0xmuxyz",
+  "risk": "3",
+  "title": "Due to lack of withdrawal function, the users, who deposit their Prize Token into the Prize Pool reserve, would never be able to withdraw from the Prize Pool reserve",
+  "issueId": 98,
+  "issueUrl": "https://github.com/code-423n4/2023-07-pooltogether-findings/issues/98"
+}
