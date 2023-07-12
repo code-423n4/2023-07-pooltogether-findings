@@ -1,0 +1,8 @@
+{
+  "contest": 258,
+  "handle": "xuwinnie",
+  "risk": "3",
+  "title": "The number of tiers will always expand if canary tier is claimed, even if the _claimExpansionThreshold is not met.",
+  "issueId": 105,
+  "issueUrl": "https://github.com/code-423n4/2023-07-pooltogether-findings/issues/105"
+}
