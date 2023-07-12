@@ -1,0 +1,8 @@
+{
+  "contest": 258,
+  "handle": "rvierdiiev",
+  "risk": "3",
+  "title": "TwabController.delegate delegates tokens directly to recipient and not his delegator",
+  "issueId": 126,
+  "issueUrl": "https://github.com/code-423n4/2023-07-pooltogether-findings/issues/126"
+}
