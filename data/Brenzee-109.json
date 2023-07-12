@@ -1,0 +1,8 @@
+{
+  "contest": 258,
+  "handle": "Brenzee",
+  "risk": "2",
+  "title": "Vault exchange rate may be inflated/deflated if `_yieldVault` pauses withdrawals",
+  "issueId": 109,
+  "issueUrl": "https://github.com/code-423n4/2023-07-pooltogether-findings/issues/109"
+}
