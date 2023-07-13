@@ -1,0 +1,15 @@
+Analysis report
+
+Architecture recommendations: as the contracts are in close relation with each other, the protocol needs to make sure that every function that is needed to be called by other contracts (like TwabController functions that are needed to be called by the Vault) is actually called by this contract. This can be done by using different modifiers. 
+
+Codebase quality analysis: the codebase itself is great although not finished yet. Most of the important functions use best practices like checks-effects-interactions pattern that helps to avoid different kinds of serious issues like reentrancy or just logical issues. Also OZ libraries are widely used and the contracts actually follow their implementation. Sometimes there are too many internal functions' calls that can be rid of as they make audit process a bit more complicated as auditors have to closely move between them. Overall, the easier the user path can be followed by the auditor, the more likely he is going to find some vulnerabilities. This can be also considered as architecture recommendation. 
+
+Centralization risks: no, as there is no admin. However, the creators of the new vaults can set vault constructor parameters themselves that can potentially lead to exploit (see my finding). Also there are functions that can only be called by the contracts that are not provided in this audit scope (like DrawManager and onlyDrawManager modifier or yieldVault etc.) and the logic in this case should be closely followed as this opens up additional attack surface. 
+
+Systemic risks: there are certain risks that were already mentioned by the team but they still represent serious danger to the system. This relates to the unfair minting of shares by some users that can be done by using mintYieldFee() function that allows users who has never participated in providing liquidity just get shares and then exchange them on the underlying asset making other users lose their money. Additionally, liquidator can manipulate the system by providing too little tokens (this was also mentioned as a team concern). The close attention should be paid to the time aspect as there are too much time-related variables that can be easily manipulated if contain even one small mistake. The last serious risk worth mentioning is a proper distribution of prizes and counting liquidity correctly. There are even TierLiquidityDistribution.sol and TwabController.sol contracts that make sure that liquidity is counted and distributed correctly. TwabController, in addition to this, is used to count vault's and users' time weighted balances correctly. 
+
+
+Overall, as the codebase is quite large and there are many attack surfaces from different sides and the cost of one mistake is also huge, introduction of new contracts like drawManager and yieldVault (they are already used but out of scope) should also be closely followed as they provide even more surface for potential vulnerabilities.
+
+### Time spent:
+15 hours
