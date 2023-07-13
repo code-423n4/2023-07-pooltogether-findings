@@ -1,0 +1,8 @@
+{
+  "contest": 258,
+  "handle": "Praise",
+  "risk": "2",
+  "title": "There's no access control on setDrawManager()",
+  "issueId": 164,
+  "issueUrl": "https://github.com/code-423n4/2023-07-pooltogether-findings/issues/164"
+}
