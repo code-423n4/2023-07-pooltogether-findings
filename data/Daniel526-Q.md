@@ -22,3 +22,6 @@ Mitigation:
 To resolve this issue, the implementation of the `delegateOf` function should be updated to return the delegate balance (a `uint256`) instead of the address. 
 2. Add a Time Delay When Transfering Ownership
 -  The contract does not include a time delay for the pending owner to claim ownership. This means that once the current owner offers ownership, the pending owner can claim it immediately. Adding a time delay (e.g., requiring a waiting period or multiple confirmations) can provide an additional layer of security and allow the current owner to cancel the ownership transfer if needed.
+3. Dangerous usage of `block.timestamp`. `block.timestamp` can be manipulated by miners.
+Recommendation
+Avoid relying on `block.timestamp`.
