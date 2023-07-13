@@ -1,0 +1,8 @@
+{
+  "contest": 258,
+  "handle": "ktg",
+  "risk": "3",
+  "title": "Improper handling of cases when withdrawable assets = 0",
+  "issueId": 180,
+  "issueUrl": "https://github.com/code-423n4/2023-07-pooltogether-findings/issues/180"
+}
