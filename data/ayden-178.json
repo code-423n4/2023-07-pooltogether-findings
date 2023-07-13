@@ -1,0 +1,8 @@
+{
+  "contest": 258,
+  "handle": "ayden",
+  "risk": "2",
+  "title": "Lack of zero value  check of the  `firstDrawStartsAt` in `constructor`",
+  "issueId": 178,
+  "issueUrl": "https://github.com/code-423n4/2023-07-pooltogether-findings/issues/178"
+}
