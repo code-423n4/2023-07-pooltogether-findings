@@ -1,0 +1,8 @@
+{
+  "contest": 258,
+  "handle": "0xMirce",
+  "risk": "3",
+  "title": "`yieldFee` could be sent to the any address in function `mintYieldFee`",
+  "issueId": 194,
+  "issueUrl": "https://github.com/code-423n4/2023-07-pooltogether-findings/issues/194"
+}
