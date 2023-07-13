@@ -1,0 +1,8 @@
+{
+  "contest": 258,
+  "handle": "seeques",
+  "risk": "3",
+  "title": "`mintYieldFee` allows to pass an arbitrary recipient for yield fee meaning anybody can mint shares for free",
+  "issueId": 199,
+  "issueUrl": "https://github.com/code-423n4/2023-07-pooltogether-findings/issues/199"
+}
