@@ -1,0 +1,8 @@
+{
+  "contest": 258,
+  "handle": "dirk_y",
+  "risk": "2",
+  "title": "Malicious user can use vault hooks to grief claimers",
+  "issueId": 213,
+  "issueUrl": "https://github.com/code-423n4/2023-07-pooltogether-findings/issues/213"
+}
