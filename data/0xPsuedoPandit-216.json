@@ -1,0 +1,8 @@
+{
+  "contest": 258,
+  "handle": "0xPsuedoPandit",
+  "risk": "3",
+  "title": "Reentrancy issue in Vault.deposit function which can inflate the exchange rate in the favor of Attacker.",
+  "issueId": 216,
+  "issueUrl": "https://github.com/code-423n4/2023-07-pooltogether-findings/issues/216"
+}
