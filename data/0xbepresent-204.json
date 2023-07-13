@@ -1,0 +1,8 @@
+{
+  "contest": 258,
+  "handle": "0xbepresent",
+  "risk": "3",
+  "title": "Malicious actor can sponsor anyone causing that sponsored user the revoke of his chances to win even if he has previous deposits",
+  "issueId": 204,
+  "issueUrl": "https://github.com/code-423n4/2023-07-pooltogether-findings/issues/204"
+}
