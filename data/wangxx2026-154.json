@@ -1,0 +1,8 @@
+{
+  "contest": 258,
+  "handle": "wangxx2026",
+  "risk": "3",
+  "title": "When _mint is called in liquidate, the asset is not converted to shares",
+  "issueId": 154,
+  "issueUrl": "https://github.com/code-423n4/2023-07-pooltogether-findings/issues/154"
+}
