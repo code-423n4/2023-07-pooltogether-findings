@@ -1,0 +1,8 @@
+{
+  "contest": 258,
+  "handle": "neumo",
+  "risk": "3",
+  "title": "Malicious vault owner can drain all users assets from the vault",
+  "issueId": 181,
+  "issueUrl": "https://github.com/code-423n4/2023-07-pooltogether-findings/issues/181"
+}
