@@ -1,0 +1,8 @@
+{
+  "contest": 258,
+  "handle": "ayden",
+  "risk": "2",
+  "title": "The `_getTier` function does not check if `_tier` is within the minimum and maximum values",
+  "issueId": 179,
+  "issueUrl": "https://github.com/code-423n4/2023-07-pooltogether-findings/issues/179"
+}
