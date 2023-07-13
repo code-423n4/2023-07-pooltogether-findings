@@ -1,0 +1,8 @@
+{
+  "contest": 258,
+  "handle": "joaovwfreire",
+  "risk": "3",
+  "title": "BeforeClaims hook can be used to lock prizes and artificially inflate vault contributions",
+  "issueId": 218,
+  "issueUrl": "https://github.com/code-423n4/2023-07-pooltogether-findings/issues/218"
+}
