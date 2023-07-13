@@ -1,0 +1,8 @@
+{
+  "contest": 258,
+  "handle": "Praise",
+  "risk": "3",
+  "title": "Anyone can mint vault shares to themselves due to lack of access control in the Vault.mintYieldFee() function",
+  "issueId": 165,
+  "issueUrl": "https://github.com/code-423n4/2023-07-pooltogether-findings/issues/165"
+}
