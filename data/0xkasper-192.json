@@ -1,0 +1,8 @@
+{
+  "contest": 258,
+  "handle": "0xkasper",
+  "risk": "3",
+  "title": "Delegating to address(0) in the TwabController will permanently lock the assets",
+  "issueId": 192,
+  "issueUrl": "https://github.com/code-423n4/2023-07-pooltogether-findings/issues/192"
+}
