@@ -1,0 +1,8 @@
+{
+  "contest": 258,
+  "handle": "keccak123",
+  "risk": "2",
+  "title": "Gas griefing temporary DoS with prize hooks",
+  "issueId": 202,
+  "issueUrl": "https://github.com/code-423n4/2023-07-pooltogether-findings/issues/202"
+}
