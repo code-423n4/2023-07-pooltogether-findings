@@ -1,0 +1,8 @@
+{
+  "contest": 258,
+  "handle": "XDZIBECX",
+  "risk": "2",
+  "title": "problem allow an attacker to manipulate the totalVaults function to return an incorrect value.",
+  "issueId": 209,
+  "issueUrl": "https://github.com/code-423n4/2023-07-pooltogether-findings/issues/209"
+}
