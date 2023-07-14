@@ -1,0 +1,8 @@
+{
+  "contest": 258,
+  "handle": "Inspecktor",
+  "risk": "2",
+  "title": "DOS Vault.liquidate() if _yieldFeePercentage = FEE_PRECISION.",
+  "issueId": 353,
+  "issueUrl": "https://github.com/code-423n4/2023-07-pooltogether-findings/issues/353"
+}
