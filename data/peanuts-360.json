@@ -1,0 +1,8 @@
+{
+  "contest": 258,
+  "handle": "peanuts",
+  "risk": "2",
+  "title": "_totalAssets() in Vault.sol calls the wrong function to get amount of assets managed by YieldVault",
+  "issueId": 360,
+  "issueUrl": "https://github.com/code-423n4/2023-07-pooltogether-findings/issues/360"
+}
