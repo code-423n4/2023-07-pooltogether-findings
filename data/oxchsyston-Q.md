@@ -1,0 +1,3 @@
+#1                 Transfer to the zero address.
+  the transfer function, transfers funds to the recipient and emits an event for off-chain monitoring. but this function does not check for the transfer of zero funds, as this also emits an event this zero transfer is not neccessary as gas used for the transfer call is wasted and an event emited when no token has been sent. 
+Recommendation: add check that reverts if transfer amount is zero.
