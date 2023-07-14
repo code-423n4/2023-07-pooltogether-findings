@@ -1,0 +1,8 @@
+{
+  "contest": 258,
+  "handle": "zzzitron",
+  "risk": "3",
+  "title": "Malicious user can steal other user's deposits from Vault.sol",
+  "issueId": 439,
+  "issueUrl": "https://github.com/code-423n4/2023-07-pooltogether-findings/issues/439"
+}
