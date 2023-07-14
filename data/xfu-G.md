@@ -736,3 +736,54 @@ Consider adding a non-zero-value check at the beginning of function.
 
 ### severity:
 Optimization
+
+## Use `assembly` to write address storage values
+
+### description:
+
+Where it does not affect readability, 
+using assembly for simple setters allows to save gas not only on deployment, 
+but also on function calls.
+
+
+**There are `5` instances of this issue:**
+
+- [_previousClaimer = _claimer](src/Vault.sol#L642) should use `assembly` update address to save gas.
+
+- [_previousYieldFeeRecipient = _yieldFeeRecipient](src/Vault.sol#L705) should use `assembly` update address to save gas.
+
+- [recipient = _winner](src/Vault.sol#L1055) should use `assembly` update address to save gas.
+
+- [_claimer = claimer_](src/Vault.sol#L1210) should use `assembly` update address to save gas.
+
+- [_yieldFeeRecipient = yieldFeeRecipient_](src/Vault.sol#L1230) should use `assembly` update address to save gas.
+
+
+### recommendation:
+
+Using `assembly` update address to save gas.
+
+For example:
+```
+contract Contract1 {
+    address owner;
+
+    function assemblyUpdateOwner(address newOwner) public {
+        assembly {
+            sstore(owner.slot, newOwner)
+        }
+    }
+}
+```
+
+
+### locations:
+- src/Vault.sol#L642
+- src/Vault.sol#L705
+- src/Vault.sol#L1055
+- src/Vault.sol#L1210
+- src/Vault.sol#L1230
+
+### severity:
+Optimization
+
