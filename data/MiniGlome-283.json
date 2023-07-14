@@ -1,0 +1,8 @@
+{
+  "contest": 258,
+  "handle": "MiniGlome",
+  "risk": "2",
+  "title": "claimPrizes() can be frontrun to get the claiming fees",
+  "issueId": 283,
+  "issueUrl": "https://github.com/code-423n4/2023-07-pooltogether-findings/issues/283"
+}
