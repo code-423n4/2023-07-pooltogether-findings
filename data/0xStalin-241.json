@@ -1,0 +1,8 @@
+{
+  "contest": 258,
+  "handle": "0xStalin",
+  "risk": "2",
+  "title": "Anybody can forcefully set the SPONSORSHIP_ADDRESS to be a delegate of anybody else, and all the delegateBalance will be transferred from the current delegate to the SPONSORSHIP_ADDRESS",
+  "issueId": 241,
+  "issueUrl": "https://github.com/code-423n4/2023-07-pooltogether-findings/issues/241"
+}
