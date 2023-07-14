@@ -1,0 +1,8 @@
+{
+  "contest": 258,
+  "handle": "Sabit",
+  "risk": "3",
+  "title": "Wrong ERC20Permit import from Openzeppelin",
+  "issueId": 364,
+  "issueUrl": "https://github.com/code-423n4/2023-07-pooltogether-findings/issues/364"
+}
