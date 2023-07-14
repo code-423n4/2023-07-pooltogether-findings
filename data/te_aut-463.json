@@ -1,0 +1,8 @@
+{
+  "contest": 258,
+  "handle": "te_aut",
+  "risk": "3",
+  "title": "Unsecure and predictable random number generation in closeDraw.winningRandomNumber_()",
+  "issueId": 463,
+  "issueUrl": "https://github.com/code-423n4/2023-07-pooltogether-findings/issues/463"
+}
