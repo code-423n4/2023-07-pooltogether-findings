@@ -1,0 +1,8 @@
+{
+  "contest": 258,
+  "handle": "Angry_Mustache_Man",
+  "risk": "2",
+  "title": "Missing Deadline parameter in liquidate() of Vault.sol",
+  "issueId": 359,
+  "issueUrl": "https://github.com/code-423n4/2023-07-pooltogether-findings/issues/359"
+}
