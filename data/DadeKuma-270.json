@@ -1,0 +1,8 @@
+{
+  "contest": 258,
+  "handle": "DadeKuma",
+  "risk": "3",
+  "title": "Anyone can steal assets from a vault by abusing the deposit logic",
+  "issueId": 270,
+  "issueUrl": "https://github.com/code-423n4/2023-07-pooltogether-findings/issues/270"
+}
