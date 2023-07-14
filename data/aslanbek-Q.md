@@ -1,5 +1,7 @@
 # [L-01] Vault.transfer(address to, uint256 amount) treats `amount` as its modulo 2^96, but emits Transfer event with the original `amount` value.
 
+https://github.com/GenerationSoftware/pt-v5-vault/blob/b1deb5d494c25f885c34c83f014c8a855c5e2749/src/Vault.sol#L1154-L1155
+
 ### Proof of Concept
 Add to /vault/test/unit/Vault/Deposit.t.sol
 ```
