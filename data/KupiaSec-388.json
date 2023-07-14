@@ -1,0 +1,8 @@
+{
+  "contest": 258,
+  "handle": "KupiaSec",
+  "risk": "2",
+  "title": "`checkedSub()` might revert due to underflow",
+  "issueId": 388,
+  "issueUrl": "https://github.com/code-423n4/2023-07-pooltogether-findings/issues/388"
+}
