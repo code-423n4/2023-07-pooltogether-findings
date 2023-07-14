@@ -1,0 +1,8 @@
+{
+  "contest": 258,
+  "handle": "zzzitron",
+  "risk": "2",
+  "title": "Loss of fees due to multiple issues with `Vault.mintYieldFee()`",
+  "issueId": 308,
+  "issueUrl": "https://github.com/code-423n4/2023-07-pooltogether-findings/issues/308"
+}
