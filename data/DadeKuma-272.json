@@ -1,0 +1,8 @@
+{
+  "contest": 258,
+  "handle": "DadeKuma",
+  "risk": "2",
+  "title": "Missing check for zero shares minted when users deposit into a vault",
+  "issueId": 272,
+  "issueUrl": "https://github.com/code-423n4/2023-07-pooltogether-findings/issues/272"
+}
