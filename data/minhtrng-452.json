@@ -1,0 +1,8 @@
+{
+  "contest": 258,
+  "handle": "minhtrng",
+  "risk": "2",
+  "title": "Balance invariant between individual and total twabs can be broken",
+  "issueId": 452,
+  "issueUrl": "https://github.com/code-423n4/2023-07-pooltogether-findings/issues/452"
+}
