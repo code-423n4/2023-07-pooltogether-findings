@@ -1,0 +1,8 @@
+{
+  "contest": 258,
+  "handle": "ni8mare",
+  "risk": "2",
+  "title": "`mintYieldFee` function does not check for the `maxMint` amount.",
+  "issueId": 435,
+  "issueUrl": "https://github.com/code-423n4/2023-07-pooltogether-findings/issues/435"
+}
