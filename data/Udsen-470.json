@@ -1,0 +1,8 @@
+{
+  "contest": 258,
+  "handle": "Udsen",
+  "risk": "2",
+  "title": "IF THE UNDERLYING ASSET IS A FEE ON TRANSFER TOKEN IT COULD BREAK THE INTERNAL ACCOUNTING OF THE VAULT",
+  "issueId": 470,
+  "issueUrl": "https://github.com/code-423n4/2023-07-pooltogether-findings/issues/470"
+}
