@@ -1,0 +1,8 @@
+{
+  "contest": 258,
+  "handle": "saneryee",
+  "risk": "2",
+  "title": "Some tokens may revert when zero value transfers are made (Addendum)",
+  "issueId": 251,
+  "issueUrl": "https://github.com/code-423n4/2023-07-pooltogether-findings/issues/251"
+}
