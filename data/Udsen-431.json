@@ -1,0 +1,8 @@
+{
+  "contest": 258,
+  "handle": "Udsen",
+  "risk": "2",
+  "title": "`drawManager` CAN BE SET TO A MALICIOUS ADDRESS",
+  "issueId": 431,
+  "issueUrl": "https://github.com/code-423n4/2023-07-pooltogether-findings/issues/431"
+}
