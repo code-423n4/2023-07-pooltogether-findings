@@ -1,0 +1,8 @@
+{
+  "contest": 258,
+  "handle": "Vagner",
+  "risk": "2",
+  "title": "`setLiquidationPair` in `Vault.sol` can revert 100% in some cases which makes changing `_liquidationPair` impossible",
+  "issueId": 301,
+  "issueUrl": "https://github.com/code-423n4/2023-07-pooltogether-findings/issues/301"
+}
