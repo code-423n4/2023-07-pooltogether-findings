@@ -1,0 +1,8 @@
+{
+  "contest": 258,
+  "handle": "gzeon",
+  "risk": "2",
+  "title": "Attacker can frontrun deployVault to deploy at the same address",
+  "issueId": 416,
+  "issueUrl": "https://github.com/code-423n4/2023-07-pooltogether-findings/issues/416"
+}
