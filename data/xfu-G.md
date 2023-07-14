@@ -75,3 +75,48 @@ Using bit shifting (`>>` operator) replace division divided by constant.
 
 Optimization
 
+
+
+## Cache the `<array>.length` for the loop condition
+
+### description:
+
+The overheads outlined below are _PER LOOP_, excluding the first loop
+
+- storage arrays incur a Gwarmaccess (**100 gas**)
+- memory arrays use `MLOAD` (**3 gas**)
+- calldata arrays use `CALLDATALOAD` (**3 gas**)
+
+Caching the length changes each of these to a `DUP<N>` (**3 gas**), and gets rid of the extra `DUP<N>` needed to store the stack offset.
+More detail optimization see [this](https://gist.github.com/0xxfu/80fcbc39d2d38d85ae61b4b8838ef30b)
+
+**There is `1` instance of this issue:**
+
+- [i < winners.length](src/Claimer.sol#L68) `<array>.length` should be cached.
+
+### recommendation:
+
+Caching the `<array>.length` for the loop condition, for example:
+
+```solidity
+// gas save (-230)
+function loopArray_cached(uint256[] calldata ns) public returns (uint256 sum) {
+  uint256 length = ns.length;
+  for (uint256 i = 0; i < length; ) {
+    sum += ns[i];
+    unchecked {
+      i++;
+    }
+  }
+}
+```
+
+### locations:
+
+- src/Claimer.sol#L68
+
+### severity:
+
+Optimization
+
+
