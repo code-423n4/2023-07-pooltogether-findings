@@ -1,0 +1,8 @@
+{
+  "contest": 258,
+  "handle": "0xStalin",
+  "risk": "3",
+  "title": "Liquidator can liquidate the max amout of _liquidableYield for as low as 1 wei of PrizeTokens",
+  "issueId": 232,
+  "issueUrl": "https://github.com/code-423n4/2023-07-pooltogether-findings/issues/232"
+}
