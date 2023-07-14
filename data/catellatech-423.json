@@ -1,0 +1,8 @@
+{
+  "contest": 258,
+  "handle": "catellatech",
+  "risk": "3",
+  "title": "In important libraries of PoolTogether, the pow() function of PRBMath is used, which exhibits inconsistent return values",
+  "issueId": 423,
+  "issueUrl": "https://github.com/code-423n4/2023-07-pooltogether-findings/issues/423"
+}
