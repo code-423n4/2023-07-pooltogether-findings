@@ -1,0 +1,8 @@
+{
+  "contest": 258,
+  "handle": "MohammedRizwan",
+  "risk": "2",
+  "title": "prb-math library is not audited and needs to be carefully trusted",
+  "issueId": 246,
+  "issueUrl": "https://github.com/code-423n4/2023-07-pooltogether-findings/issues/246"
+}
