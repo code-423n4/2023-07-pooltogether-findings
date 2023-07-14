@@ -1,0 +1,8 @@
+{
+  "contest": 258,
+  "handle": "ro1sharkm",
+  "risk": "2",
+  "title": "Timestamp Dependency Vulnerability in `getVRGDAPrice()` Function",
+  "issueId": 282,
+  "issueUrl": "https://github.com/code-423n4/2023-07-pooltogether-findings/issues/282"
+}
