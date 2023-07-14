@@ -1,0 +1,8 @@
+{
+  "contest": 258,
+  "handle": "ni8mare",
+  "risk": "3",
+  "title": "Deposit transaction is prone to being front-run by bad actors.",
+  "issueId": 391,
+  "issueUrl": "https://github.com/code-423n4/2023-07-pooltogether-findings/issues/391"
+}
