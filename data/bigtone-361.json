@@ -1,0 +1,8 @@
+{
+  "contest": 258,
+  "handle": "bigtone",
+  "risk": "2",
+  "title": "The length of `winners` and `prizeIndices` was not checked in the `claimPrizes`",
+  "issueId": 361,
+  "issueUrl": "https://github.com/code-423n4/2023-07-pooltogether-findings/issues/361"
+}
