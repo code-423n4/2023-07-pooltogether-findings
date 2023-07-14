@@ -157,3 +157,26 @@ Remove unused state variables.
 Informational
 
 
+## Events are missing sender information
+
+### description:
+
+When an action is triggered based on a user's action, not being able to filter based on 
+who triggered the action makes event processing a lot more cumbersome. 
+Including the `msg.sender` the events of these types of action will make events much more 
+useful to end users.
+
+**There is `1` instance of this issue:**
+
+- [NewFactoryVault(_vault,VaultFactory(address(this)))](src/VaultFactory.sol#L83) should add `msg.sender` to event.
+
+### recommendation:
+
+Adding `msg.sender` to event.
+
+
+### locations:
+- src/VaultFactory.sol#L83
+
+### severity:
+Low
