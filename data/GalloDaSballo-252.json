@@ -1,0 +1,8 @@
+{
+  "contest": 258,
+  "handle": "GalloDaSballo",
+  "risk": "2",
+  "title": "Exchange Rate Change in Case of Lossy Strategy will cause the Vault to Undercollateralized for generic ERC4626 Yield Vaults ",
+  "issueId": 252,
+  "issueUrl": "https://github.com/code-423n4/2023-07-pooltogether-findings/issues/252"
+}
