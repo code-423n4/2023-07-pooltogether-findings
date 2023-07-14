@@ -1,0 +1,8 @@
+{
+  "contest": 258,
+  "handle": "adeolu",
+  "risk": "2",
+  "title": "_winningRandomNumber vartiable used in calculating if caller is winner can be read via web3.getStorageAt() and user can predict if he wins or not before hand",
+  "issueId": 466,
+  "issueUrl": "https://github.com/code-423n4/2023-07-pooltogether-findings/issues/466"
+}
