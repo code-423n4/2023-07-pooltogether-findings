@@ -1,0 +1,8 @@
+{
+  "contest": 258,
+  "handle": "Vagner",
+  "risk": "3",
+  "title": "`deposit` and `mint` functions in `Vault.sol` can be easily front-ran making the user loose funds",
+  "issueId": 286,
+  "issueUrl": "https://github.com/code-423n4/2023-07-pooltogether-findings/issues/286"
+}
