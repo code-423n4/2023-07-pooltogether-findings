@@ -21,3 +21,34 @@ Check if the lengths of the array parameters are equal before use.
 ### severity:
 
 Low
+
+
+## Setters should check the input value
+
+### description:
+
+Setters should have initial value check to prevent assigning wrong value to the variable.
+Assignment of wrong value can lead to unexpected behavior of the contract.
+
+**There are `2` instances of this issue:**
+
+- [Claimer.constructor(PrizePool,uint256,uint256,uint256,UD2x18).\_minimumFee](src/Claimer.sol#L39) lacks an upper limit check on :
+
+  - [minimumFee = \_minimumFee](src/Claimer.sol#L49)
+
+- [Claimer.constructor(PrizePool,uint256,uint256,uint256,UD2x18).\_timeToReachMaxFee](src/Claimer.sol#L41) lacks an upper limit check on :
+  - [timeToReachMaxFee = \_timeToReachMaxFee](src/Claimer.sol#L50)
+
+### recommendation:
+
+Add an upper limit check to the setters function.
+
+### locations:
+
+- src/Claimer.sol#L39
+- src/Claimer.sol#L41
+
+### severity:
+
+Low
+
