@@ -1,0 +1,8 @@
+{
+  "contest": 258,
+  "handle": "Kalyan-Singh",
+  "risk": "2",
+  "title": "Donation Attack possible on the underlying yieldVault breaking the main vault",
+  "issueId": 341,
+  "issueUrl": "https://github.com/code-423n4/2023-07-pooltogether-findings/issues/341"
+}
