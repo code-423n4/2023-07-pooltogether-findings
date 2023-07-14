@@ -1,0 +1,8 @@
+{
+  "contest": 258,
+  "handle": "dev0cloo",
+  "risk": "2",
+  "title": "Permit does not revert for tokens that do not implement it.",
+  "issueId": 468,
+  "issueUrl": "https://github.com/code-423n4/2023-07-pooltogether-findings/issues/468"
+}
