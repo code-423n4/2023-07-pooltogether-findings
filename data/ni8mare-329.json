@@ -1,0 +1,8 @@
+{
+  "contest": 258,
+  "handle": "ni8mare",
+  "risk": "3",
+  "title": "Anyone can call mintYieldFee in the Vault contract to mint shares for themselves",
+  "issueId": 329,
+  "issueUrl": "https://github.com/code-423n4/2023-07-pooltogether-findings/issues/329"
+}
