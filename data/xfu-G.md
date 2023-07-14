@@ -1,3 +1,4 @@
+
 ## Usage of `uints`/`ints` smaller than 32 bytes (256 bits) incurs overhead
 
 ### description:
@@ -630,4 +631,108 @@ Remove unused functions.
 
 ### severity:
 
+Optimization
+
+## Functions guaranteed to revert when called by normal users can be marked `payable`
+
+### description:
+
+If a function modifier such as `onlyOwner/onlyAdmin/only**` is used, 
+the function will revert if a normal user tries to pay the function. 
+Marking the function as payable will lower the gas cost for legitimate callers 
+because the compiler will not include checks for whether a payment was provided. 
+
+The extra opcodes avoided are `CALLVALUE(2)`,`DUP1(3)`,`ISZERO(3)`,`PUSH2(3)`,
+`JUMPI(10)`,`PUSH1(3)`,`DUP1(3)`,`REVERT(0)`,`JUMPDEST(1)`,`POP(2)`, 
+which costs an average of about `21 gas` per call to the function, 
+in addition to the extra deployment cost
+
+
+**There are `2` instances of this issue:**
+
+- [PrizePool.withdrawReserve(address,uint104)](src/PrizePool.sol#L335-L342) should be set to `payable` 
+
+- [PrizePool.closeDraw(uint256)](src/PrizePool.sol#L348-L386) should be set to `payable` 
+
+
+### recommendation:
+
+Set the function to `payable`.
+
+
+### locations:
+- src/PrizePool.sol#L335-L342
+- src/PrizePool.sol#L348-L386
+
+### severity:
+Optimization
+
+## Use `delete` to Clear Variables
+
+### description:
+
+delete a assigns the initial value for the type to a. i.e. 
+for integers it is equivalent to a = 0, but it can also be used on arrays, 
+where it assigns a dynamic array of length zero or a static array of the same 
+length with all elements reset. For structs, it assigns a struct with all members reset. 
+Similarly, it can also be used to set an address to zero address. 
+It has no effect on whole mappings though (as the keys of mappings may be arbitrary 
+and are generally unknown). However, individual keys and what they map to can be deleted: 
+If a is a mapping, then delete a[x] will delete the value stored at x.
+
+The delete key better conveys the intention and is also more idiomatic. 
+Consider replacing assignments of zero with delete statements.
+
+
+**There are `3` instances of this issue:**
+
+- Should use `delete` statement instead of [claimCount = 0](src/PrizePool.sol#L369)
+
+- Should use `delete` statement instead of [canaryClaimCount = 0](src/PrizePool.sol#L370)
+
+- Should use `delete` statement instead of [largestTierClaimed = 0](src/PrizePool.sol#L371)
+
+
+### recommendation:
+
+Replacing assignments of zero with delete statements.
+
+
+
+### locations:
+- src/PrizePool.sol#L369
+- src/PrizePool.sol#L370
+- src/PrizePool.sol#L371
+
+### severity:
+Optimization
+
+
+## Amounts should be checked for `0` before calling a `transfer`
+
+### description:
+
+According to the fact that EIP-20 [states](https://github.com/ethereum/EIPs/blob/46b9b698815abbfa628cd1097311deee77dd45c5/EIPS/eip-20.md?plain=1#L116) that zero-valued transfers must be accepted.
+
+Checking non-zero transfer values can avoid an expensive external call and save gas.
+While this is done at some places, it’s not consistently done in the solution.
+
+
+**There are `2` instances of this issue:**
+
+- Adding a non-zero-value check for [prizeToken.safeTransferFrom(msg.sender,address(this),_amount)](src/PrizePool.sol#L500) at the beginning of [PrizePool.increaseReserve(uint104)](src/PrizePool.sol#L498-L502)
+
+- Adding a non-zero-value check for [prizeToken.safeTransfer(_to,_amount)](src/PrizePool.sol#L832) at the beginning of [PrizePool._transfer(address,uint256)](src/PrizePool.sol#L830-L833)
+
+
+### recommendation:
+
+Consider adding a non-zero-value check at the beginning of function.
+
+
+### locations:
+- src/PrizePool.sol#L500
+- src/PrizePool.sol#L832
+
+### severity:
 Optimization
