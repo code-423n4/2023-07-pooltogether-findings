@@ -1,0 +1,8 @@
+{
+  "contest": 258,
+  "handle": "0xSmartContract",
+  "risk": "2",
+  "title": "An identical vault can be deployed with existing values, the logic controlling this is missing",
+  "issueId": 437,
+  "issueUrl": "https://github.com/code-423n4/2023-07-pooltogether-findings/issues/437"
+}
