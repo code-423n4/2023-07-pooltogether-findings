@@ -1,0 +1,8 @@
+{
+  "contest": 258,
+  "handle": "dirk_y",
+  "risk": "2",
+  "title": "Number of prize tiers always increases if just 1 canary prize is claimed",
+  "issueId": 332,
+  "issueUrl": "https://github.com/code-423n4/2023-07-pooltogether-findings/issues/332"
+}
