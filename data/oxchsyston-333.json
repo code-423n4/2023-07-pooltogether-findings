@@ -1,0 +1,8 @@
+{
+  "contest": 258,
+  "handle": "oxchsyston",
+  "risk": "2",
+  "title": "Possible loss of ownership of the vault, due to the use of ownable.sol for contract ownership. ",
+  "issueId": 333,
+  "issueUrl": "https://github.com/code-423n4/2023-07-pooltogether-findings/issues/333"
+}
