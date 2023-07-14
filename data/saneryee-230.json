@@ -1,0 +1,8 @@
+{
+  "contest": 258,
+  "handle": "saneryee",
+  "risk": "2",
+  "title": "Contracts are vulnerable to fee-on-transfer-token-related accounting issue(supplement)",
+  "issueId": 230,
+  "issueUrl": "https://github.com/code-423n4/2023-07-pooltogether-findings/issues/230"
+}
