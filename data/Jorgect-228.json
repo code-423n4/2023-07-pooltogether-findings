@@ -1,0 +1,8 @@
+{
+  "contest": 258,
+  "handle": "Jorgect",
+  "risk": "3",
+  "title": "Missing access control in setDrawManager in PrizePool.sol",
+  "issueId": 228,
+  "issueUrl": "https://github.com/code-423n4/2023-07-pooltogether-findings/issues/228"
+}
