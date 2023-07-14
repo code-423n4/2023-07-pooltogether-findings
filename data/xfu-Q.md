@@ -52,3 +52,108 @@ Add an upper limit check to the setters function.
 
 Low
 
+## Too many digits
+
+### description:
+
+Literals with many digits are difficult to read and review.
+
+
+**There are `13` instances of this issue:**
+
+- [PrizePool.slitherConstructorConstantVariables()](src/PrizePool.sol#L124-L975) uses literals with too many digits:
+	- [TIER_ODDS_12_13 = SD59x18.wrap(1000000000000000000)](src/abstract/TieredLiquidityDistributor.sol#L171)
+
+- [PrizePool.slitherConstructorConstantVariables()](src/PrizePool.sol#L124-L975) uses literals with too many digits:
+	- [TIER_ODDS_14_15 = SD59x18.wrap(1000000000000000000)](src/abstract/TieredLiquidityDistributor.sol#L200)
+
+- [PrizePool.slitherConstructorConstantVariables()](src/PrizePool.sol#L124-L975) uses literals with too many digits:
+	- [TIER_ODDS_7_8 = SD59x18.wrap(1000000000000000000)](src/abstract/TieredLiquidityDistributor.sol#L116)
+
+- [PrizePool.slitherConstructorConstantVariables()](src/PrizePool.sol#L124-L975) uses literals with too many digits:
+	- [TIER_ODDS_4_5 = SD59x18.wrap(1000000000000000000)](src/abstract/TieredLiquidityDistributor.sol#L95)
+
+- [PrizePool.slitherConstructorConstantVariables()](src/PrizePool.sol#L124-L975) uses literals with too many digits:
+	- [TIER_ODDS_9_10 = SD59x18.wrap(1000000000000000000)](src/abstract/TieredLiquidityDistributor.sol#L135)
+
+- [PrizePool.slitherConstructorConstantVariables()](src/PrizePool.sol#L124-L975) uses literals with too many digits:
+	- [TIER_ODDS_11_12 = SD59x18.wrap(1000000000000000000)](src/abstract/TieredLiquidityDistributor.sol#L158)
+
+- [PrizePool.slitherConstructorConstantVariables()](src/PrizePool.sol#L124-L975) uses literals with too many digits:
+	- [TIER_ODDS_2_3 = SD59x18.wrap(1000000000000000000)](src/abstract/TieredLiquidityDistributor.sol#L86)
+
+- [PrizePool.slitherConstructorConstantVariables()](src/PrizePool.sol#L124-L975) uses literals with too many digits:
+	- [TIER_ODDS_6_7 = SD59x18.wrap(1000000000000000000)](src/abstract/TieredLiquidityDistributor.sol#L108)
+
+- [PrizePool.slitherConstructorConstantVariables()](src/PrizePool.sol#L124-L975) uses literals with too many digits:
+	- [TIER_ODDS_3_4 = SD59x18.wrap(1000000000000000000)](src/abstract/TieredLiquidityDistributor.sol#L90)
+
+- [PrizePool.slitherConstructorConstantVariables()](src/PrizePool.sol#L124-L975) uses literals with too many digits:
+	- [TIER_ODDS_10_11 = SD59x18.wrap(1000000000000000000)](src/abstract/TieredLiquidityDistributor.sol#L146)
+
+- [PrizePool.slitherConstructorConstantVariables()](src/PrizePool.sol#L124-L975) uses literals with too many digits:
+	- [TIER_ODDS_13_14 = SD59x18.wrap(1000000000000000000)](src/abstract/TieredLiquidityDistributor.sol#L185)
+
+- [PrizePool.slitherConstructorConstantVariables()](src/PrizePool.sol#L124-L975) uses literals with too many digits:
+	- [TIER_ODDS_8_9 = SD59x18.wrap(1000000000000000000)](src/abstract/TieredLiquidityDistributor.sol#L125)
+
+- [PrizePool.slitherConstructorConstantVariables()](src/PrizePool.sol#L124-L975) uses literals with too many digits:
+	- [TIER_ODDS_5_6 = SD59x18.wrap(1000000000000000000)](src/abstract/TieredLiquidityDistributor.sol#L101)
+
+#### Exploit scenario
+
+```solidity
+contract MyContract{
+    uint 1_ether = 10000000000000000000; 
+}
+```
+
+While `1_ether` looks like `1 ether`, it is `10 ether`. As a result, it's likely to be used incorrectly.
+
+
+### recommendation:
+
+Use:
+- [Ether suffix](https://solidity.readthedocs.io/en/latest/units-and-global-variables.html#ether-units),
+- [Time suffix](https://solidity.readthedocs.io/en/latest/units-and-global-variables.html#time-units), or
+- [The scientific notation](https://solidity.readthedocs.io/en/latest/types.html#rational-and-integer-literals)
+
+
+### locations:
+- src/PrizePool.sol#L124-L975
+- src/PrizePool.sol#L124-L975
+- src/PrizePool.sol#L124-L975
+- src/PrizePool.sol#L124-L975
+- src/PrizePool.sol#L124-L975
+- src/PrizePool.sol#L124-L975
+- src/PrizePool.sol#L124-L975
+- src/PrizePool.sol#L124-L975
+- src/PrizePool.sol#L124-L975
+- src/PrizePool.sol#L124-L975
+- src/PrizePool.sol#L124-L975
+- src/PrizePool.sol#L124-L975
+- src/PrizePool.sol#L124-L975
+
+### severity:
+Informational
+
+## Unused state variable
+
+### description:
+Unused state variable.
+
+**There is `1` instance of this issue:**
+
+- [TieredLiquidityDistributor.GRAND_PRIZE_PERIOD_DRAWS](src/abstract/TieredLiquidityDistributor.sol#L66) is never used in [PrizePool](src/PrizePool.sol#L124-L975)
+
+
+### recommendation:
+Remove unused state variables.
+
+### locations:
+- src/abstract/TieredLiquidityDistributor.sol#L66
+
+### severity:
+Informational
+
+
