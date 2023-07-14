@@ -1,0 +1,8 @@
+{
+  "contest": 258,
+  "handle": "grearlake",
+  "risk": "2",
+  "title": "Vault.sol  is not fully up to EIP-4626's specification",
+  "issueId": 231,
+  "issueUrl": "https://github.com/code-423n4/2023-07-pooltogether-findings/issues/231"
+}
