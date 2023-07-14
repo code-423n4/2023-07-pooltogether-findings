@@ -1,0 +1,8 @@
+{
+  "contest": 258,
+  "handle": "hals",
+  "risk": "3",
+  "title": "Vault will lose its `_yieldFeeTotalSupply` without getting an equivalent amount of share tokens",
+  "issueId": 397,
+  "issueUrl": "https://github.com/code-423n4/2023-07-pooltogether-findings/issues/397"
+}
