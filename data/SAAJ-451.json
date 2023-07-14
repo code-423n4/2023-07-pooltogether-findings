@@ -1,0 +1,8 @@
+{
+  "contest": 258,
+  "handle": "SAAJ",
+  "risk": "2",
+  "title": "balanceOf method can be manipulate to liquidated vault",
+  "issueId": 451,
+  "issueUrl": "https://github.com/code-423n4/2023-07-pooltogether-findings/issues/451"
+}
