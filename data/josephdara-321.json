@@ -1,0 +1,8 @@
+{
+  "contest": 258,
+  "handle": "josephdara",
+  "risk": "3",
+  "title": "```_computeMaxFee``` Computes the wrong fee for a tier",
+  "issueId": 321,
+  "issueUrl": "https://github.com/code-423n4/2023-07-pooltogether-findings/issues/321"
+}
