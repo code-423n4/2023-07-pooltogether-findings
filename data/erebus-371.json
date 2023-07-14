@@ -1,0 +1,8 @@
+{
+  "contest": 258,
+  "handle": "erebus",
+  "risk": "3",
+  "title": "Anyone can mint to themselves type(uint96).max if _isVaultCollateralized() returns true",
+  "issueId": 371,
+  "issueUrl": "https://github.com/code-423n4/2023-07-pooltogether-findings/issues/371"
+}
