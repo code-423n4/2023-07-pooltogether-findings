@@ -1,0 +1,8 @@
+{
+  "contest": 258,
+  "handle": "yjrwkk",
+  "risk": "2",
+  "title": "`TwabController#sponsor` can be called by anybody.",
+  "issueId": 326,
+  "issueUrl": "https://github.com/code-423n4/2023-07-pooltogether-findings/issues/326"
+}
