@@ -1,0 +1,8 @@
+{
+  "contest": 258,
+  "handle": "yixxas",
+  "risk": "2",
+  "title": "Threshold check for adding of new tiers is skipped when `_nextNumberOfTiers` is at the maximum",
+  "issueId": 314,
+  "issueUrl": "https://github.com/code-423n4/2023-07-pooltogether-findings/issues/314"
+}
