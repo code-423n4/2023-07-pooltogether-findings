@@ -1,0 +1,8 @@
+{
+  "contest": 258,
+  "handle": "Udsen",
+  "risk": "2",
+  "title": "IF UNDERLYING ASSETS ARE DIFFERENT BETWEEN THE STANDARD VAULT AND YIELD VAULT, IT COULD LEAD TO REDEPLOYMENT OF THE VAULT CONTRACT",
+  "issueId": 425,
+  "issueUrl": "https://github.com/code-423n4/2023-07-pooltogether-findings/issues/425"
+}
