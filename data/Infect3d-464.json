@@ -1,0 +1,8 @@
+{
+  "contest": 258,
+  "handle": "Infect3d",
+  "risk": "2",
+  "title": "`TwabLib::getTwabBetween` can return innacurate balances if `_startTime` and `_endTime` aren't safely bounded",
+  "issueId": 464,
+  "issueUrl": "https://github.com/code-423n4/2023-07-pooltogether-findings/issues/464"
+}
