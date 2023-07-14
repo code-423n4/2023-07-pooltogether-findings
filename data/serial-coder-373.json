@@ -1,0 +1,8 @@
+{
+  "contest": 258,
+  "handle": "serial-coder",
+  "risk": "2",
+  "title": "Denial-of-service attack on \"prizes claiming\" transaction",
+  "issueId": 373,
+  "issueUrl": "https://github.com/code-423n4/2023-07-pooltogether-findings/issues/373"
+}
