@@ -1,0 +1,8 @@
+{
+  "contest": 258,
+  "handle": "minhtrng",
+  "risk": "3",
+  "title": "No access control on mintYieldFee",
+  "issueId": 454,
+  "issueUrl": "https://github.com/code-423n4/2023-07-pooltogether-findings/issues/454"
+}
