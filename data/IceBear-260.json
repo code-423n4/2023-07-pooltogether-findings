@@ -1,0 +1,8 @@
+{
+  "contest": 258,
+  "handle": "IceBear",
+  "risk": "2",
+  "title": "Vault.sol is not EIP-4626 compliant",
+  "issueId": 260,
+  "issueUrl": "https://github.com/code-423n4/2023-07-pooltogether-findings/issues/260"
+}
