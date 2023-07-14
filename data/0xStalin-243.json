@@ -1,0 +1,8 @@
+{
+  "contest": 258,
+  "handle": "0xStalin",
+  "risk": "2",
+  "title": "Silent overflow could alter computation when calculating the vaultPortion in the PrizePool contract",
+  "issueId": 243,
+  "issueUrl": "https://github.com/code-423n4/2023-07-pooltogether-findings/issues/243"
+}
