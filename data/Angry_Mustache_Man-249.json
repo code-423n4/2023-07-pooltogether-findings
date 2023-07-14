@@ -1,0 +1,8 @@
+{
+  "contest": 258,
+  "handle": "Angry_Mustache_Man",
+  "risk": "2",
+  "title": "Tokens with Phantom permit functions breaks the purpose of permits and thereby breaking composability",
+  "issueId": 249,
+  "issueUrl": "https://github.com/code-423n4/2023-07-pooltogether-findings/issues/249"
+}
