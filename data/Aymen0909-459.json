@@ -1,0 +1,8 @@
+{
+  "contest": 258,
+  "handle": "Aymen0909",
+  "risk": "2",
+  "title": "`isTimeSafe` and `isTimeRangeSafe` not implemented in the functions `getBalanceAt` and `getTwabBetween`",
+  "issueId": 459,
+  "issueUrl": "https://github.com/code-423n4/2023-07-pooltogether-findings/issues/459"
+}
