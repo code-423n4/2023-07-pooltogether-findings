@@ -44,3 +44,34 @@ Using `uint256/int256` replace `uint128/uint64/uint32/uint16/uint8` or `int128/i
 ### severity:
 
 Optimization
+
+
+
+## Using `x >> constant(uint)` with the right shift operator is a more gas-efficient
+
+### description:
+
+`<x> / 2` is the same as `<x> >> 1`. While the compiler uses the `SHR` opcode to accomplish both,
+the version that uses division incurs an overhead of [**20 gas**](https://gist.github.com/0xxfu/84e3727f28e01f9b628836d5bf55d0cc)
+due to `JUMP`s to and from a compiler utility function that introduces checks which can
+be avoided by using `unchecked {}` around the division by two
+
+**There are `2` instances of this issue:**
+
+- [uint256(unsafeWadMul(targetPriceInt,extraPrecisionExpResult)) / 1e18](src/libraries/LinearVRGDALib.sol#L92) should use right shift `>>` operator to save gas.
+
+- [ud2x18(uint64(uint256(wadExp(maxDiv / 1e18))))](src/libraries/LinearVRGDALib.sol#L110) should use right shift `>>` operator to save gas.
+
+### recommendation:
+
+Using bit shifting (`>>` operator) replace division divided by constant.
+
+### locations:
+
+- src/libraries/LinearVRGDALib.sol#L92
+- src/libraries/LinearVRGDALib.sol#L110
+
+### severity:
+
+Optimization
+
