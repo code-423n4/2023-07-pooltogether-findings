@@ -1,0 +1,8 @@
+{
+  "contest": 258,
+  "handle": "Vagner",
+  "risk": "2",
+  "title": "`convertToShares` and `convertToAssets` in `Vault.sol` are not compliant with EIP4626 in the case of undercollateralization",
+  "issueId": 267,
+  "issueUrl": "https://github.com/code-423n4/2023-07-pooltogether-findings/issues/267"
+}
