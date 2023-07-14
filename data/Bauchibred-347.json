@@ -1,0 +1,8 @@
+{
+  "contest": 258,
+  "handle": "Bauchibred",
+  "risk": "2",
+  "title": "Vault.sol is vulnerable to the classic vault's first depositor issue",
+  "issueId": 347,
+  "issueUrl": "https://github.com/code-423n4/2023-07-pooltogether-findings/issues/347"
+}
