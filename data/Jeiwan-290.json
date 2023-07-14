@@ -1,0 +1,8 @@
+{
+  "contest": 258,
+  "handle": "Jeiwan",
+  "risk": "3",
+  "title": "Unrestricted `Vault.mintYieldFee` function allows stealing of mint yield",
+  "issueId": 290,
+  "issueUrl": "https://github.com/code-423n4/2023-07-pooltogether-findings/issues/290"
+}
