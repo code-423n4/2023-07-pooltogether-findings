@@ -1,0 +1,8 @@
+{
+  "contest": 258,
+  "handle": "seerether",
+  "risk": "3",
+  "title": "Incorrect amount of tokens is transferred before updating the accumulator and emitting the ContributePrizeTokens event",
+  "issueId": 378,
+  "issueUrl": "https://github.com/code-423n4/2023-07-pooltogether-findings/issues/378"
+}
