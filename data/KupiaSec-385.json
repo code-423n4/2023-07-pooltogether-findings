@@ -1,0 +1,8 @@
+{
+  "contest": 258,
+  "handle": "KupiaSec",
+  "risk": "2",
+  "title": "`Vault.liquidate()` will revert when `_yieldFeePercentage` is 100%",
+  "issueId": 385,
+  "issueUrl": "https://github.com/code-423n4/2023-07-pooltogether-findings/issues/385"
+}
