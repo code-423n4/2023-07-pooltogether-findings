@@ -1,0 +1,8 @@
+{
+  "contest": 258,
+  "handle": "0xStalin",
+  "risk": "3",
+  "title": "Vault's Owners can deploy fake PrizePools & TwabControllers contracts that can contain logic to cheat on users and alter the balances to get away with all the Prizes & potentially steal all the users underlying assets",
+  "issueId": 239,
+  "issueUrl": "https://github.com/code-423n4/2023-07-pooltogether-findings/issues/239"
+}
