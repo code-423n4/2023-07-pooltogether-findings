@@ -1,0 +1,8 @@
+{
+  "contest": 258,
+  "handle": "SM3_SS",
+  "risk": "2",
+  "title": "disrupting program flow and potential loss of data or funds in setDrawManager function",
+  "issueId": 367,
+  "issueUrl": "https://github.com/code-423n4/2023-07-pooltogether-findings/issues/367"
+}
