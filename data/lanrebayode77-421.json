@@ -1,0 +1,8 @@
+{
+  "contest": 258,
+  "handle": "lanrebayode77",
+  "risk": "2",
+  "title": "Unchecked PERIOD_OFFSET, could be set in the future",
+  "issueId": 421,
+  "issueUrl": "https://github.com/code-423n4/2023-07-pooltogether-findings/issues/421"
+}
