@@ -1,0 +1,8 @@
+{
+  "contest": 258,
+  "handle": "mahyar",
+  "risk": "3",
+  "title": "PrizePool -> Winners wouldn't be able to claim prize correctly in `claimPrize` function ",
+  "issueId": 399,
+  "issueUrl": "https://github.com/code-423n4/2023-07-pooltogether-findings/issues/399"
+}
