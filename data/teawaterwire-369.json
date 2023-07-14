@@ -1,0 +1,8 @@
+{
+  "contest": 258,
+  "handle": "teawaterwire",
+  "risk": "3",
+  "title": "Vault wrongly stays in collateralized state for next depositor if yield vault loses all assets",
+  "issueId": 369,
+  "issueUrl": "https://github.com/code-423n4/2023-07-pooltogether-findings/issues/369"
+}
