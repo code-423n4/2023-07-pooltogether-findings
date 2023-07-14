@@ -1,0 +1,8 @@
+{
+  "contest": 258,
+  "handle": "KupiaSec",
+  "risk": "2",
+  "title": "Users might lose their balances when they set delegates",
+  "issueId": 386,
+  "issueUrl": "https://github.com/code-423n4/2023-07-pooltogether-findings/issues/386"
+}
