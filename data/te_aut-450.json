@@ -1,0 +1,8 @@
+{
+  "contest": 258,
+  "handle": "te_aut",
+  "risk": "2",
+  "title": "_getNextObservationIndex() Random use of timestamp to determine the currentTime can be manipulated bacause of dangerous strict equalities",
+  "issueId": 450,
+  "issueUrl": "https://github.com/code-423n4/2023-07-pooltogether-findings/issues/450"
+}
