@@ -1,0 +1,8 @@
+{
+  "contest": 258,
+  "handle": "ginlee",
+  "risk": "2",
+  "title": "Consider using OpenZeppelin’s SafeCast library to prevent unexpected overflows when casting from uint256",
+  "issueId": 268,
+  "issueUrl": "https://github.com/code-423n4/2023-07-pooltogether-findings/issues/268"
+}
