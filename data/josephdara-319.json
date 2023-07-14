@@ -1,0 +1,8 @@
+{
+  "contest": 258,
+  "handle": "josephdara",
+  "risk": "2",
+  "title": "```_nextDraw``` Does not check if the _nextNumberOfTiers is over the max  possible value",
+  "issueId": 319,
+  "issueUrl": "https://github.com/code-423n4/2023-07-pooltogether-findings/issues/319"
+}
