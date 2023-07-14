@@ -1,0 +1,4 @@
+The approach that I have taken in this evaluating this codebase is similar to other codebases, I read the code at a very low level at first to see if there are any inconsistencies in the codebase or logic flaws then I try to understand it as effective as possible from a high level perspective to see if the implementation is done right. The codebase was very interesting because they took a different approach of ERC4626, than the usual one, accounting all of the users in the `TwabController.sol` instead of the ERC4626 `Vault.sol`. Most of my findings relies on the problems seen in the ERC4626, problems which I consider valuable to the protocol since it may break the logic of the contract or even make the users loose funds.    
+
+### Time spent:
+15 hours
