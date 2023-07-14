@@ -1,8 +1,0 @@
-{
-  "contest": 258,
-  "handle": "aslanbek",
-  "risk": "3",
-  "title": "Missing access control in Vault.sponsor allows anyone to revoke any user's chance to win",
-  "issueId": 263,
-  "issueUrl": "https://github.com/code-423n4/2023-07-pooltogether-findings/issues/263"
-}
