@@ -1,0 +1,8 @@
+{
+  "contest": 258,
+  "handle": "Inspecktor",
+  "risk": "3",
+  "title": "An attacker can install himself as a DrawManager and steal funds in the withdrawReserve() functions in PrizePool.sol",
+  "issueId": 356,
+  "issueUrl": "https://github.com/code-423n4/2023-07-pooltogether-findings/issues/356"
+}
