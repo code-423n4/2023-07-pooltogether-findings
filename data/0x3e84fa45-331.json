@@ -1,0 +1,8 @@
+{
+  "contest": 258,
+  "handle": "0x3e84fa45",
+  "risk": "3",
+  "title": "Tiers can be mantained active to give unfair advantage to user through DoS",
+  "issueId": 331,
+  "issueUrl": "https://github.com/code-423n4/2023-07-pooltogether-findings/issues/331"
+}
