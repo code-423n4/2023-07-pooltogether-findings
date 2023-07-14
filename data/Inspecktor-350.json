@@ -1,0 +1,8 @@
+{
+  "contest": 258,
+  "handle": "Inspecktor",
+  "risk": "2",
+  "title": "Reorg attack in VaultFactory",
+  "issueId": 350,
+  "issueUrl": "https://github.com/code-423n4/2023-07-pooltogether-findings/issues/350"
+}
