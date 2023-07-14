@@ -15,7 +15,7 @@ Recommendation : Use openzeppelin SafeCast library.
 ### Instance#2: Unsafe downcasting from uint256 to uint96
 
 ```solidity
-
+File: src/Claimer.sol
  72:   uint96 feePerClaim = uint96(
       _computeFeePerClaim(
         _computeMaxFee(tier, prizePool.numberOfTiers()),
