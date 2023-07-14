@@ -1,0 +1,8 @@
+{
+  "contest": 258,
+  "handle": "0xbrett8571",
+  "risk": "3",
+  "title": "Invalid Draw Range Vulnerability in getDisbursedBetween, the subsequent check for `_endDrawId < drawIds.first`.",
+  "issueId": 273,
+  "issueUrl": "https://github.com/code-423n4/2023-07-pooltogether-findings/issues/273"
+}
