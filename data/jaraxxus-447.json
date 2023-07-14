@@ -1,0 +1,8 @@
+{
+  "contest": 258,
+  "handle": "jaraxxus",
+  "risk": "2",
+  "title": "Malicious yield vault owners can manipulate the interaction between the vault and yield vault",
+  "issueId": 447,
+  "issueUrl": "https://github.com/code-423n4/2023-07-pooltogether-findings/issues/447"
+}
