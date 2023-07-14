@@ -1,0 +1,8 @@
+{
+  "contest": 258,
+  "handle": "LuchoLeonel1",
+  "risk": "3",
+  "title": "Anyone can call mintYieldFee() and mint the yield fee to themself",
+  "issueId": 223,
+  "issueUrl": "https://github.com/code-423n4/2023-07-pooltogether-findings/issues/223"
+}
