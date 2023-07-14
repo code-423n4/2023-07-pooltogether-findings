@@ -1,0 +1,8 @@
+{
+  "contest": 258,
+  "handle": "0x111",
+  "risk": "3",
+  "title": "When expanding the number of tiers during a new draw, the prizeTokenPerShare of the new Tiers is not the right one",
+  "issueId": 271,
+  "issueUrl": "https://github.com/code-423n4/2023-07-pooltogether-findings/issues/271"
+}
