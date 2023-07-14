@@ -1,0 +1,8 @@
+{
+  "contest": 258,
+  "handle": "zzzitron",
+  "risk": "3",
+  "title": "More shares can be minted than underlying assets available, rendering Vault.sol undercollateralized as a result",
+  "issueId": 307,
+  "issueUrl": "https://github.com/code-423n4/2023-07-pooltogether-findings/issues/307"
+}
