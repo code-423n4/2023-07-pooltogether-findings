@@ -1,0 +1,8 @@
+{
+  "contest": 258,
+  "handle": "dev0cloo",
+  "risk": "3",
+  "title": "Attacker can steal vault funds through the deposit function.",
+  "issueId": 455,
+  "issueUrl": "https://github.com/code-423n4/2023-07-pooltogether-findings/issues/455"
+}
