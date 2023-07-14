@@ -1,0 +1,8 @@
+{
+  "contest": 258,
+  "handle": "KIntern_NA",
+  "risk": "3",
+  "title": "The `_currentExchangeRate` of the Vault contract can't increase, and always be lower than or equal to `_assetUnit`",
+  "issueId": 443,
+  "issueUrl": "https://github.com/code-423n4/2023-07-pooltogether-findings/issues/443"
+}
