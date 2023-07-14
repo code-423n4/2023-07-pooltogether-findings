@@ -1,0 +1,8 @@
+I really liked how there are few components that are concisely written in single contracts. This reduces the complexity of the system and makes it easier to understand the design and identify possible weaknesses. There were some parts of the Vault contract that made me raise an eyebrow. For example, `_convertToShares` is implemented in one internal function but `_convertToAssets` is implemented in two internal functions. The way that `_currentExchangeRate` is used in `_convertToShares` and `_convertToAssets` is also a bit confusing, because the units and decimals of this value must be kept in mind everywhere that it is used. The relationship and overall flow with the yield vault was not fully clear to me, as was the intended goal of allowing anyone to be the owner of the vault.
+
+To continue on this last point, will PoolTogether follow a similar model to yearn finance v3, where anyone can create strategies that are part of yearn, but yearn will vet the strategies and only feature vetted strategies on their main UI, with the other strategies found on something like ape.tax? Because this model is what makes sense to me given the existing design and desire for decentralization, but there will be continuous effort vetting new strategies, and I saw no documentation of the intention to do this.
+
+I focused on effort on Vault.sol because this is where most of the funds pass through. I did not look at TwabController.sol with the time I allocated so I cannot comment on it.
+
+### Time spent:
+8 hours
